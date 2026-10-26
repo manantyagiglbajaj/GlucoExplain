@@ -39,8 +39,8 @@ GlucoExplain is a modern, privacy-focused educational health technology web appl
 
 ### 1. Prerequisites
 
-- Node.js (version 18 or later)
-- npm or pnpm
+- Node.js (version 20.19+ or 22.12+, Node.js 22.x recommended for Vercel)
+- npm (v10+) or pnpm
 
 ### 2. Environment Configuration
 

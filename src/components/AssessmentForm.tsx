@@ -238,7 +238,7 @@ export const AssessmentForm: React.FC<AssessmentFormProps> = ({
                 className="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-600 text-sm placeholder:text-slate-400 transition-colors"
               />
               <p className="text-xs text-slate-500 mt-1">
-                Your name is never sent to Gemini or stored in any database; it only appears on your printable summary.
+                Your name is never sent to the AI service or stored in any database; it only appears on your printable summary.
               </p>
             </div>
 
@@ -811,7 +811,7 @@ export const AssessmentForm: React.FC<AssessmentFormProps> = ({
                     Privacy Protection & AI Explanation Consent
                   </h4>
                   <p className="text-xs text-slate-600 leading-relaxed">
-                    GlucoExplain processes your calculation locally using deterministic rules. If consented, an anonymous summary (calculated age, BMI, and factor answers) is sent to Google Gemini via our secure server to generate plain-language explanations and practical suggestions.
+                    GlucoExplain processes your calculation locally using deterministic rules. If consented, an anonymous summary (calculated age, BMI, and factor answers) is sent to GlucoExplain AI via our secure server to generate plain-language explanations and practical suggestions.
                   </p>
                   <p className="text-xs font-semibold text-teal-900">
                     Your name and date of birth are NEVER sent to the AI model or saved in any database.
@@ -825,7 +825,7 @@ export const AssessmentForm: React.FC<AssessmentFormProps> = ({
                       className="w-4 h-4 text-teal-600 rounded border-slate-300 focus:ring-teal-500"
                     />
                     <span className="text-xs font-medium text-slate-800">
-                      Enable Gemini AI-powered plain English explanation (uncheck for local offline explanation only)
+                      Enable GlucoExplain AI explanation (uncheck for local offline explanation only)
                     </span>
                   </label>
                 </div>

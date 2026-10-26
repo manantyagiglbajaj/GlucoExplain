@@ -1,6 +1,8 @@
 {
-  "name": "GlucoExplain — Explainable Diabetes Risk Prediction",
+  "name": "GlucoExplain",
   "description": "An educational risk-assessment application that uses health and lifestyle factors to generate an easy-to-understand diabetes risk indicator with explainable factors and Gemini insights.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

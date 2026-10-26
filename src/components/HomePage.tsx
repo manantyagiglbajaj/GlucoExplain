@@ -10,11 +10,9 @@ import {
   Sparkles,
   ArrowRight,
   BookOpen,
-  ShieldAlert,
   CheckCircle2,
   FileSpreadsheet,
   Activity,
-  Heart,
   Scale,
   Stethoscope,
 } from 'lucide-react';
@@ -135,7 +133,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStartAssessment }) => {
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">3. AI-Powered Explanation</h3>
             <p className="text-sm text-slate-600 leading-relaxed grow">
-              Receive a simple explanation and general health information using Gemini. The model clarifies results in plain language, highlights missing clinical data, and guides next steps.
+              Receive a simple explanation and general health information using GlucoExplain AI. The system clarifies results in plain language, highlights missing clinical data, and guides next steps.
             </p>
             <div className="mt-4 pt-4 border-t border-slate-100 flex items-center gap-2 text-xs font-medium text-emerald-700">
               <CheckCircle2 className="w-4 h-4 text-emerald-600" />
@@ -192,7 +190,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStartAssessment }) => {
                 </div>
                 <h3 className="text-base font-bold text-white mb-2">Understand Your Results</h3>
                 <p className="text-xs text-slate-300 leading-relaxed">
-                  Review which factors drove the score, read the Gemini-powered plain English summary, review personalized lifestyle suggestions, and print a report for your doctor.
+                  Review which factors drove the score, read the GlucoExplain AI plain English summary, review personalized lifestyle suggestions, and print a report for your doctor.
                 </p>
               </div>
             </div>
@@ -218,7 +216,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStartAssessment }) => {
               GlucoExplain calculates an <strong>illustrative risk score</strong> based on documented clinical risk factors adapted from recognized guidelines such as the American Diabetes Association (ADA) Risk Tool and the Finnish Diabetes Risk Score (FINDRISC).
             </p>
             <p>
-              Established risk drivers—such as age, Body Mass Index (BMI), first-degree family history, prior prediabetes findings, and hypertension—carry greater mathematical weight than lifestyle items. The Gemini AI engine does <em>not</em> calculate or invent numbers; instead, it provides natural language context, explains uncertainty, and highlights what clinical details are missing.
+              Established risk drivers—such as age, Body Mass Index (BMI), first-degree family history, prior prediabetes findings, and hypertension—carry greater mathematical weight than lifestyle items. GlucoExplain AI does <em>not</em> calculate or invent numbers; instead, it provides natural language context, explains uncertainty, and highlights what clinical details are missing.
             </p>
           </div>
 
@@ -231,23 +229,6 @@ export const HomePage: React.FC<HomePageProps> = ({ onStartAssessment }) => {
               <Stethoscope className="w-4 h-4 text-teal-600 shrink-0 mt-0.5" />
               <span><strong>Separated clinical labs:</strong> HbA1c and glucose are evaluated distinctly.</span>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Prominent Educational Disclaimer */}
-      <section className="max-w-4xl mx-auto px-4 sm:px-6">
-        <div className="bg-amber-50/80 border border-amber-200/90 rounded-2xl p-5 sm:p-6 text-amber-900 flex flex-col sm:flex-row items-start gap-4">
-          <div className="w-10 h-10 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center shrink-0">
-            <ShieldAlert className="w-5 h-5" />
-          </div>
-          <div>
-            <h3 className="text-sm font-bold tracking-tight text-amber-950 uppercase">
-              Educational Notice & Medical Disclaimer
-            </h3>
-            <p className="text-xs sm:text-sm text-amber-800/95 mt-1 leading-relaxed">
-              GlucoExplain is an educational demonstration application, not a certified medical device, and cannot diagnose, prevent, treat, or rule out type 2 diabetes or any other medical condition. A low risk score does not guarantee the absence of diabetes, and a higher score is not a clinical diagnosis. Always consult a licensed physician or qualified medical professional for health advice, routine screening, and diagnostic lab tests.
-            </p>
           </div>
         </div>
       </section>

@@ -9,7 +9,6 @@ import { HomePage } from './components/HomePage';
 import { AssessmentForm } from './components/AssessmentForm';
 import { ResultsDashboard } from './components/ResultsDashboard';
 import { PrintReport } from './components/PrintReport';
-import { Footer } from './components/Footer';
 import {
   AssessmentData,
   RiskPredictionResult,
@@ -158,7 +157,7 @@ export default function App() {
       />
 
       {/* Main Content Area */}
-      <main className="flex-1 pt-6 sm:pt-8">
+      <main className="flex-1 pt-6 sm:pt-8 pb-16">
         {activeTab === 'home' ? (
           <HomePage onStartAssessment={handleStartAssessment} />
         ) : (
@@ -203,9 +202,6 @@ export default function App() {
           />
         )}
       </main>
-
-      {/* Footer */}
-      <Footer />
     </div>
   );
 }

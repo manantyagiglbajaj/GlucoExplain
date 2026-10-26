@@ -137,7 +137,7 @@ export const PrintReport: React.FC<PrintReportProps> = ({
       <div className="border-t border-slate-300 pt-4 text-xs text-slate-600 space-y-2 print-break-inside-avoid">
         <h3 className="font-bold text-slate-900 text-xs">Calculation Method & Technical Limitations</h3>
         <p>
-          <strong>Method:</strong> Deterministic rule-based scoring module calibrated against population health screening parameters (ADA Risk Test and FINDRISC guidelines). Natural language contextual explanation generated via Google Gemini 3.8 Flash without overriding calculated point values.
+          <strong>Method:</strong> Deterministic rule-based scoring module calibrated against population health screening parameters (ADA Risk Test and FINDRISC guidelines). Natural language contextual explanation generated via GlucoExplain AI without overriding calculated point values.
         </p>
         <p>
           <strong>Limitations:</strong> This prototype evaluates self-reported questionnaire inputs and does not account for comprehensive medical history, clinical lipid panels, kidney function, or ongoing prescription therapies.

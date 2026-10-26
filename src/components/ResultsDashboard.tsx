@@ -243,7 +243,7 @@ export const ResultsDashboard: React.FC<ResultsDashboardProps> = ({
               </h2>
               <p className="text-xs text-slate-500">
                 {explanation?.source === 'gemini'
-                  ? 'AI-Powered Plain-Language Clinical Synthesis (Google Gemini)'
+                  ? 'GlucoExplain AI — Personalised Result Explanation'
                   : 'Transparent Rule-Based Explanatory Narrative'}
               </p>
             </div>
@@ -252,7 +252,7 @@ export const ResultsDashboard: React.FC<ResultsDashboardProps> = ({
           {isLoadingExplanation && (
             <div className="flex items-center gap-2 text-xs text-teal-700 bg-teal-50 px-3 py-1 rounded-full font-medium animate-pulse">
               <div className="w-3 h-3 border-2 border-teal-600 border-t-transparent rounded-full animate-spin" />
-              <span>Generating AI insights...</span>
+              <span>Generating GlucoExplain AI insights...</span>
             </div>
           )}
         </div>

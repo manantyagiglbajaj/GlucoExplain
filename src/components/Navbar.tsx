@@ -31,14 +31,9 @@ export const Navbar: React.FC<NavbarProps> = ({
               <Activity className="w-5 h-5" />
             </div>
             <div>
-              <div className="flex items-center gap-2">
-                <span className="text-xl font-bold tracking-tight text-slate-900 group-hover:text-teal-700 transition-colors">
-                  GlucoExplain
-                </span>
-                <span className="text-[10px] font-semibold uppercase tracking-wider bg-teal-50 text-teal-700 px-2 py-0.5 rounded-full border border-teal-200/60">
-                  Prototype
-                </span>
-              </div>
+              <span className="text-xl font-bold tracking-tight text-slate-900 group-hover:text-teal-700 transition-colors block">
+                GlucoExplain
+              </span>
               <p className="text-xs text-slate-500 hidden sm:block">
                 Explainable Diabetes Risk Assessment
               </p>
